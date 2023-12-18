@@ -1,0 +1,449 @@
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   /* body{
+        background-color: aquamarine;
+    }*/
+    #home .banner1,
+    #home .banner2{
+     /*background-repeat: no-repeat;
+     background-size: cover;*/
+     background-position: 9 center;
+     min-height: 320px;
+     
+    }
+    #home .banner1  .banner-text{
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        transform: translate(-160%,-50%);
+       }
+       #home .banner1  .banner-text h1{
+        font-size: 2rem;
+       }
+       #home .banner1  .banner-text h3{
+        font-size: 12px;
+       }
+       #home .banner2  .banner-text{
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        transform: translate(-160%,-50%);
+       }
+       #home .banner2  .banner-text h1{
+        font-size: 2rem;
+       }
+       #home .banner2  .banner-text h3{
+        font-size: 12px;
+       }
+       #home .banner2  .banner-text .btn{
+        font-size: 9px;
+       }
+       #home .banner1  .banner-text .btn{
+        font-size: 10px;
+       }
+       /*offer-section*/
+       .offer .offer-box .offer-info .text-bigger{
+        font-size: 3rem;
+        line-height: 1;
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-bottom: 0;
+       }
+       .offer .offer-box .offer-info .offer-title-1{
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin-bottom: 0;
+        letter-spacing: 3px;
+    }
+    .product .up-to-content h2{
+        font-size: 1.30rem;
+    }
+    .product .up-to-content h2 .up-qw{
+        color: white;
+    }
+
+
+    /*special*/
+
+    .special .special-img {
+        margin-top: 30px;
+    }
+    .special .m2-sale{
+        font-size: 1.5rem;
+      }
+    .special .open-1{
+        font-size: 1.4rem;
+      }
+      .special .text-count p{
+        font-size: 12px;
+        font-weight: 400;
+        font-style: italic;
+      }
+      .special .text-count .shut{
+        font-size: 14px;
+      }
+
+       /*contact*/
+  #contact .contact-pp{
+    font-size: 1.1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+  }
+  #contact .lab{
+    font-size: 0.90rem;
+  }
+
+  
+     /* footer*/
+
+     footer .foot1{
+      font-size: 1rem;
+      font-weight: 400;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /*  body{
+        background-color: rgb(209, 70, 24);
+    }*/
+    #home .banner1,
+    #home .banner2{
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 9 center;
+     min-height: 430px;
+     
+    }
+    #home .banner1  .banner-text{
+        position: absolute;
+        top: 50%;
+        left: 77%;
+        transform: translate(-160%,-50%);
+       }
+       #home .banner1  .banner-text h1{
+        font-size: 4rem;
+       }
+       #home .banner2  .banner-text{
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        transform: translate(-160%,-50%);
+       }
+       #home .banner2  .banner-text h1{
+        font-size: 3.5rem;
+       }
+       #home .banner2  .banner-text h3{
+        font-size: 1.5rem;
+       }
+       /*offer-section*/
+       .offer .offer-box .offer-info .text-bigger{
+        font-size: 2.1rem;
+        line-height: 1;
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-bottom: 0;
+       }
+       .offer .offer-box .offer-info .offer-title-1{
+        font-size: 1rem;
+        font-weight: 300;
+        margin-bottom: 0;
+        letter-spacing: 3px;
+    }
+    .product .up-to-content h2{
+        font-size: 1.40rem;
+    }
+    .product .up-to-content h2 .up-qw{
+        color: white;
+    }
+
+
+       /*special*/
+
+       .special .special-img {
+        margin-top: 30px;
+    }
+    .special .m2-sale{
+        font-size: 2rem;
+      }
+    .special .open-1{
+        font-size: 1.80rem;
+      }
+      .special .text-count p{
+        font-size: 15px;
+        font-weight: 400;
+        font-style: italic;
+      }
+      .special .text-count .shut{
+        font-size: 16px;
+      }
+      .special .open-1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.78rem;
+      }
+       /*contact*/
+  #contact .contact-pp{
+    font-size: 1.1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+  }
+  #contact .lab{
+    font-size: 0.90rem;
+  }
+
+  
+     /* footer*/
+
+     footer .foot1{
+      font-size: 1rem;
+      font-weight: 400;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+
+
+    }
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /*  body{
+        background-color: rgb(54, 42, 169);
+    }*/
+    #home .banner1  .banner-text{
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        transform: translate(-160%,-50%);
+       }
+       #home .banner2  .banner-text{
+        position: absolute;
+        top: 50%;
+        left: 65%;
+        transform: translate(-160%,-50%);
+       }
+       #home .banner2  .banner-text h1{
+        font-size: 4rem;
+       }
+       #home .banner2  .banner-text h3{
+        font-size: 1.5rem;
+       }
+       /*offer-section*/
+       .offer .offer-box .offer-info .text-bigger{
+        font-size: 2.10rem;
+        line-height: 1;
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-bottom: 0;
+       }
+       .product .up-to-content h2{
+        font-size: 1.60rem;
+       }
+
+
+       /*specisl*/
+        .special .special-img {
+            margin-top: 30px;
+        }
+        .special .open-1{
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-size: 2rem;
+        }
+
+
+         /*contact*/
+  #contact .contact-pp{
+    font-size: 1.1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+  }
+  #contact .lab{
+    font-size: 0.90rem;
+  }
+
+
+  
+     /* footer*/
+
+     footer .foot1{
+      font-size: 1.2rem;
+      font-weight: 400;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* body{
+    background-color: rgb(249, 255, 127);*/
+}
+#home .banner1  .banner-text{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-160%,-50%);
+   }
+   #home .banner2  .banner-text{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-160%,-50%);
+   }
+   /*offer-section*/
+   .offer .offer-box .offer-info .text-bigger{
+    font-size: 3rem;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 0;
+   }
+   .product .up-to-content h2{
+    font-size: 2rem;
+   }
+
+
+   /*special*/
+
+
+   .special .special-img {
+    margin-top: 0px;
+}
+.special .m2-sale{
+    font-size: 2.5rem;
+  }
+  .special .open-1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+  }
+  .special .open-1 .open-2{
+    color: red;
+  }
+  .special .text-count p{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+
+
+  /*contact*/
+  #contact .contact-pp{
+    font-size: 1.1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+  }
+  #contact .lab{
+    font-size: 0.90rem;
+  }
+
+
+  
+     /* footer*/
+
+     footer .foot1{
+      font-size: 1.4rem;
+      font-weight: 400;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+
+
+/*Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   /* body{
+        background-color: rgb(255, 14, 235);
+    }*/
+    #home .banner1,
+    #home .banner2{
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 9 center;
+     min-height: 650px;
+     
+    }
+    #home .banner1  .banner-text{
+        position: absolute;
+        top: 50%;
+        left: 65%;
+        transform: translate(-160%,-50%);
+       }
+       #home .banner2  .banner-text{
+        position: absolute;
+        top: 50%;
+        left: 65%;
+        transform: translate(-160%,-50%);
+       }
+       #home .banner1  .banner-text h1{
+        font-size: 6rem;
+       }
+       #home .banner1  .banner-text h3{
+        font-size: 3rem;
+       }
+       #home .banner2  .banner-text h1{
+        font-size: 6rem;
+       }
+       #home .banner2  .banner-text h3{
+        font-size: 2.5rem;
+       }
+       /*offer-section*/
+       .offer .offer-box .offer-info .text-bigger{
+        font-size: 3.2rem;
+        line-height: 1;
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-bottom: 0;
+       }
+
+       /*specisl*/
+
+       .special .special-img {
+        margin-top: 0px;
+    }
+    .special .m2-sale{
+        font-size: 2.5rem;
+      }
+      .special .open-1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 2.5rem;
+      }
+      .special .open-1 .open-2{
+        color: red;
+      }
+      .special .text-count p{
+        font-size: 20px;
+        font-weight: 400;
+        font-style: italic;
+      }
+      .special .text-count {
+        font-size: 2rem;
+      }
+
+
+      /*Contact  */
+      #contact .contact-pp{
+        font-size: 1.3rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: red;
+      }
+      #contact .lab{
+        font-size: 1rem;
+      }
+
+     /* footer*/
+
+     footer .foot1{
+      font-size: 1.5rem;
+      font-weight: 400;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    
+}

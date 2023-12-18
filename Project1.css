@@ -1,0 +1,308 @@
+
+/*Navbar*/
+
+header .navbar .navbar-nav .nav-item .nav-link{
+    color: black;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+}
+header .navbar .navbar-nav .nav-item .nav-link:hover,
+header .navbar .navbar-nav .nav-item .nav-link:active{
+    color: rgb(255, 0, 0);
+    
+}
+
+
+       /*Home Section*/
+
+       #home{
+        margin-top: 90px;
+       }
+       #home .banner1,
+       #home .banner2{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 9 center;
+        min-height: 650px;
+        position: relative;
+       }
+       #home .banner1{
+        background-image: url('../pp6.jpg');
+       }
+       #home .banner2{
+        background-image: url('../pp5.jpg');
+       }
+       #home .banner1  .banner-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-160%,-50%);
+       }
+       #home .banner2  .banner-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-160%,-50%);
+       }
+       #home .banner1  .banner-text h1,
+       #home .banner2  .banner-text h1{
+        font-size: 6rem;
+       }
+
+
+       /*Offer-Css*/
+
+       .offer{
+        padding-top: 8.75rem;
+       }
+       .offer .offer-box .offer-img::before{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: -100%;
+        z-index: 2;
+        display: block;
+        width: 50%;
+        height: 100%;
+        background:-webkit-linear-gradient(to right, rgba(255,255,255,0)0%, rgba(255,255,255,0.3)100%);
+        background: linear-gradient(to right, rgba(255,255,255,0)0%, rgba(255,255,255,0.3)100%);
+        transform: skewX(-25deg);
+       }
+       .offer .offer-box .offer-img img{
+        transform: scale(1.02);
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+       }
+       .offer .offer-box:hover .offer-img::before{
+        animation: shine 1s ease-in-out;
+       }
+       @keyframes shine{
+        100%{
+            left: 150%;
+        }
+       }
+       .offer .offer-overly::before
+       {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        z-index: 1;
+       }
+       .offer .offer-box .offer-info{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        transition: all 250ms ease-out;
+        justify-content: center;
+        align-items: center;
+
+       }
+       .offer .offer-box .offer-info .text-bigger{
+        font-size: 4.2rem;
+        line-height: 1;
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-bottom: 0;
+       }
+       .offer .offer-box .offer-info .offer-title-1{
+        font-size: 1.2rem;
+        font-weight: 300;
+        margin-bottom: 0;
+        letter-spacing: 5px;
+       }
+       .offer .offer-box .offer-info .btn-outline-danger{
+        color: white;
+        border-color: white;
+        transition: all 0.3s ease-in-out;
+       }
+       .offer .offer-box .offer-info .btn-outline-danger:hover{
+        color: white;
+        border-color:rgb(217, 145, 145);
+        background-color: red;
+       }
+
+       /*product*/
+       .product{
+        padding-top: 8.87rem;
+       }
+
+
+       .headline h2::before{
+        content: '';
+        width: 30%;
+        height: 0.24rem;
+        background-color: red;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 0.624rem;
+       }
+      .product a{
+        text-decoration: none;
+        color: black;
+      }
+      .product-list .product-img img{
+        transition: all 500ms ease-in-out;
+      }
+      .product-list .product-img .product-img-sec{
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 28%;
+        right: 0;
+        bottom: 0;
+      }
+      .product-list .product-img:hover .product-img-sec{
+        opacity: 1;
+      }
+      .product-list .product-name h2{
+        font-size: 1.5rem;
+        color: black;
+        transition: all 0.3s ease 0s;
+        text-transform: uppercase;
+      }
+      .product-list .product-name h2:hover{
+        color: rgb(255, 55, 24);
+      }
+      .product-list .product-name .ammount{
+        font-weight: 500;
+        color: rgb(248, 30, 30);
+        font-size: 20px;
+      }
+      .product-list .product-name del{
+        color: rgb(70, 55, 55);
+        font-size: 14px;
+      }
+      .product-list .product-name .active{
+        color: yellow;
+       
+      }
+      .product-list .product-name .btn{
+        transition: all 0.3s ease-in-out;
+      }
+      .product-list .product-name .btn:hover{
+        background-color: red;
+        color: white;
+        border: none;
+      }
+
+      /*img come out*/
+
+
+     .up-to-off .omg{
+        object-fit: cover;
+      }
+      .product .up-to-off{
+        position: relative;
+      }
+      .product .up-to-off::before{
+        content:'';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right:0;
+        bottom: 50%;
+        width: 100%;
+        height: 50%;
+        background: rgba(0, 0, 0, .2);
+        z-index: 2;
+        cursor: pointer;
+        transition: 5s ease-in-out;
+      }
+      .product .up-to-off img{
+        transform: .5s;
+      }
+      .product .up-to-off:hover img{
+        transform: scale(1.1);
+      }
+      .product .up-to-content h2{
+        color: rgb(0, 0, 0);
+        font-size: 2.625rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        z-index: 3;
+      }
+
+
+
+      /*special-section*/
+      .special{
+        margin-top: 8.87rem;
+      }
+      .special .m2-sale{
+        font-size: 2.5rem;
+      }
+      .special .open-1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 2.5rem;
+      }
+      .special .open-1 .open-2{
+        color: red;
+      }
+      .special .text-count p{
+        font-size: 20px;
+        font-weight: 400;
+        font-style: italic;
+      }
+
+      /*Price section*/
+
+
+      .price{
+        margin-top: 7rem;
+      }
+
+
+
+
+         /*contact*/
+
+         #contact{
+          margin-top: 8.5rem;
+        }
+        #contact .lab2{
+          color: red;
+        }
+        #contact .contact-pp{
+          font-size: 1.5rem;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          color: red;
+        }
+        #contact .lab{
+          font-size: 1.5rem;
+        }
+
+
+        /*footer*/
+
+        footer{
+          margin-top: 8.5rem;
+          background-color: black;
+
+        }
+        footer .foot1{
+          font-size: 1.5rem;
+          font-weight: 400;
+          font-family: 'Times New Roman', Times, serif;
+        }
+
+
+
